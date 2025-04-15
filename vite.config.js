@@ -11,5 +11,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: process.env.VITE_APP_BASE_URL || "/",
+  base: process.env.VITE_APP_BASE_URL || "/wearlyFrontend",
 });
